@@ -9,7 +9,10 @@ public class Order {
         this.name = name;
         this.items = new ArrayList<>();
     }
-
+    public Order(){
+        this.name = "Guest";
+        this.items = new ArrayList<Item>();
+    }
     // Methods
     public void addItem(Item item) {
         items.add(item);

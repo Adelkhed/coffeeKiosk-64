@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Scanner;
+
 
 public class CoffeeKiosk {
     private ArrayList<Item> menu;
@@ -7,8 +7,8 @@ public class CoffeeKiosk {
 
     // Constructeur
     public CoffeeKiosk() {
-        menu = new ArrayList<>();
-        orders = new ArrayList<>();
+        this.menu = new ArrayList<>();
+        this.orders = new ArrayList<>();
     }
 
     // Méthodes
